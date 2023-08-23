@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tnt_minecart"
+		},
+		"title": {
+			"text": "Bored"
+		},
+		"description": {
+			"text": "Craft TNT minecart"
+		},
+		"frame": "task",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"done": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:tnt_minecart"
+			}
+		}
+	},
+	"parent": "suggestions:tnt"
+}

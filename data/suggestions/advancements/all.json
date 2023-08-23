@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:paper"
+		},
+		"title": {
+			"text": "Advancement Suggestions"
+		},
+		"description": {
+			"text": ""
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": true,
+		"hidden": true
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "tick"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tnt"
+		},
+		"title": {
+			"text": "We Do a Little Trolling"
+		},
+		"description": {
+			"text": "Place a lot of TNT (50) in the same area and ignite them"
+		},
+		"frame": "goal",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"done": {
+			"trigger": "impossible"
+		}
+	},
+	"parent": "suggestions:all"
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glowstone"
+		},
+		"title": {
+			"text": "The Aether?"
+		},
+		"description": {
+			"text": "Try to build an Aether Portal"
+		},
+		"frame": "goal",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"done": {
+			"trigger": "impossible"
+		}
+	},
+	"parent": "suggestions:roof"
+}

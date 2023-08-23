@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:skeleton_skull"
+		},
+		"title": {
+			"text": "☠"
+		},
+		"description": {
+			"text": "Attempt to summon a wither using skeleton skulls"
+		},
+		"frame": "challenge",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"done": {
+			"trigger": "impossible"
+		}
+	},
+	"parent": "suggestions:roof"
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond"
+		},
+		"title": {
+			"text": "NOOOOOOOOOOOOOOOOOO"
+		},
+		"description": {
+			"text": "Mine a diamond and have it immediately fall into lava"
+		},
+		"frame": "task",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"done": {
+			"trigger": "impossible"
+		}
+	},
+	"parent": "suggestions:tnt"
+}

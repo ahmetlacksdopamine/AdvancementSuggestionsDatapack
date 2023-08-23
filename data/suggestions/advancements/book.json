@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:written_book"
+		},
+		"title": {
+			"text": "they ain't reading allat 💯"
+		},
+		"description": {
+			"text": "Write a book containing 10 pages of text and give it to another player"
+		},
+		"frame": "task",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"done": {
+			"trigger": "impossible"
+		}
+	},
+	"parent": "suggestions:void"
+}
